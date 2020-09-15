@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@100;200;300;400;500;531;600;700;800;900&display=swap');
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/*<!--header section css start form here-->*/
+header{
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+}
+.nav-link{
+    color: #b0b0b0 !important;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+    font-weight: 600;
+    transition: 0.5s ease-in-out;
+}
+.nav-link:hover{
+    color: #ff9b51 !important;
+    transition: 0.5s ease-in-out;
+}
+/*<!--header section css end form here-->*/
+/*<!--banner section css start form here-->*/
+.banner{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.banner-item{
+    margin-top: 76px;
+}
+.banner-item h1{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 36px;
+    margin: 27px 0px 16px 0px;
+    font-weight: 400;
+}
+.banner-item .line{
+    width: 68px;
+    height: 2px;
+    background: white;
+    margin-bottom: 37px;
+    margin-top: 34px;
+}
+.banner-item p{
+    font-family: 'Raleway', sans-serif;
+    color: #cccac9;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.banner-item button{
+    padding: 10px 30px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-top: 15px;
+    transition: 0.5s ease-in-out;
+}
+.banner-item button:hover{
+    background: #ff9b51;
+    border: 1px solid #ff9b51;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.banner-form{
+    height: 90vh;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 162px;
+    padding-top: 15px;
+}
+.card-header span{
+    color: #ff9b51;
+}
+.card-header{
+    background-color: #f5f5f5;
+}
+.card-header h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.form-group input{
+    padding: 3px 96px 3px 0px;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+}
+.form-group input:focus{
+    outline: none;
+}
+.form-group{
+    margin-bottom: 2rem;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.banner-form .card{
+    border: none;
+}
+.form-group input ::placeholder{
+    color: #cccccc;
+}
+
+.card-footer{
+    background-color: #ff9b51;;
+    text-align: center;
+}
+.card-footer input{
+    background: transparent;
+    border: none;
+    padding: 5px 30px;
+    color: white;
+}
+.card-footer input:focus{
+    outline: none;
+}
+.card-header .card-footer{
+    padding: 1rem 1.5rem !important;
+}
+/*<!--banner section css end form here-->*/
+/*<!--social section css start form here-->*/
+.social-section{
+    width: 100%;
+    padding: 30px 0px 20px 0px;
+}
+.col-md-7 ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 26px;
+    margin-top: 18px;
+}
+.social-section .col-md-7{
+    text-align: right;
+}
+.social-section .col-md-5{
+    text-align: left;
+}
+.social-section .col-md-5 h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.social-section .col-md-5 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #95969a;
+}
+.social-section .col-md-7 ul li i{
+    font-size: 48px;
+    color: #cccccc;
+    transition: 0.5s ease-in-out;
+}
+.social-section .col-md-7 ul li i:hover{
+    color: #ff8b38;
+    transition: 0.5s ease-in-out;
+}
+/*<!--social section css end form here-->*/
+/*<!--Features section css start form here--->*/
+.features-1{
+    width: 100%;
+    padding: 120px 0px;
+    background-color: #f5f5f5;
+    box-shadow: 0px -1px 2px 1px rgba(0,0,0,0.3);
+}
+.features-1 ul li{
+    list-style: none;
+    height: 90px;
+    width: 100px;
+    background-color: #333333;
+    border-bottom: 1px solid white;
+    text-align: center;
+    line-height: 90px; 
+    transition: 0.5s ease-in-out;
+}
+.features-1 ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.features-1 ul li:hover{
+    background-color: #ff8b38 !important;
+    transition: 0.5s ease-in-out;
+}
+.tab-1{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #ff8b38 !important;
+}
+.tab-3{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.features-1 h2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.features-1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #95969a;
+    margin-top: 35px;
+}
+.features-1 button{
+    padding: 10px 30px;
+    color: white;
+    background: #ff9b51;
+    margin-top: 15px;
+    transition: 0.5s ease-in-out;
+    border: none;
+}
+.features-1 button:hover{
+    background: #333333;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+/*<!--Features section css end form here--->*/
+/*<!--Features-2 section css start form here--->*/
+.features-2{
+    width: 100%;
+    padding: 120px 0px;
+}
+.features-2 h2{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.features-2 .line{
+    width: 68px;
+    height: 2px;
+    background: #ff9b51;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.features-2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #95969a;
+    margin-top: 35px;
+    letter-spacing: 1px;
+}
+.features-2 a i{
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    text-align: center;
+    line-height: 45px;
+    font-size: 26px;
+    border-radius: 100%;
+    color: #ff9b51;
+    border: 2px solid #ff9b51;
+}
+.features-2 h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.features-2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #95969a;
+    margin-top: -2px;
+}
+/*<!--Features-2 section css end form here--->*/
+/*<!--Features-3 section css start form here--->*/
+.features-3{
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 120px 0px;
+}
+.features-3 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.features-3 .line{
+    width: 68px;
+    height: 2px;
+    background: #ff9b51;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.features-3 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #95969a;
+    letter-spacing: 1px;
+}
+/*<!--Features-3 section css end form here--->*/
+/*<!--About section css start form here--->*/
+.about{
+    width: 100%;
+    padding: 120px 0px;
+    text-align: center;
+}
+.about h1{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.about p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #95969a;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.about .line{
+    width: 68px;
+    height: 2px;
+    background: #ff9b51;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 519px;
+}
+.about i{
+    height: 60px;
+    width: 60px;
+    background: transparent;
+    text-align: center;
+    line-height: 56px;
+    font-size: 30px;
+    border-radius: 100%;
+    color: #ff9b51;
+    border: 2px solid #ff9b51;
+}
+.about i:hover{
+    background-color: #ff9b51;
+    color: white;
+}
+.about h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 16px 0px;
+}
+.about h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #95969a;
+    letter-spacing: 1px;
+}
+/*<!--About section css end form here--->*/
